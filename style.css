@@ -2,11 +2,7 @@ html,
 body {
     padding: 0px;
     margin: 0px;
-}
-
-div#title {
-    text-align: center;
-    padding-top: 50px;
+    background-color: black;
 }
 
 canvas {

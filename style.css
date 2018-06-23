@@ -4,7 +4,7 @@ body {
     margin: 0px;
 }
 
- canvas {
+ div#canvas-container {
     margin: 50%;
     display: block;
  }

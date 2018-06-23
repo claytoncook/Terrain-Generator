@@ -1,7 +1,7 @@
 int col, row;
-int scl = 10;
+int scl = 25;
 int h = 500;
-int w = 800;
+int w = 500;
 
 float forward;
 
@@ -15,7 +15,7 @@ void setup() {
 };
 
 void draw() {
-  forward -= 0.05;
+  forward -= 0.04;
 
   float yOff = forward;
   for (int y = 0; y < col; y++) {

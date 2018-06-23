@@ -1,7 +1,7 @@
 int col, row;
-int scl = 10;
-int h = 1800;
-int w = 2100;
+int scl = 30;
+int h = 1000;
+int w = 1000;
 
 float forward;
 
@@ -15,13 +15,13 @@ void setup() {
 };
 
 void draw() {
-  forward -= 0.1;
+  forward -= 0.05;
 
   float yOff = forward;
   for (int y = 0; y < col; y++) {
     float xOff = 0;
     for (int x = 0; x < row; x++) {
-      terrain[x][y] = map(noise(xOff, yOff), 0, 1, 0, 100);
+      terrain[x][y] = map(noise(xOff, yOff), 0, 1, 0, 250);
       xOff += 0.1;
     }
     yOff += 0.1;

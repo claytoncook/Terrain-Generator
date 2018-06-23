@@ -4,8 +4,11 @@ body {
     margin: 0px;
 }
 
-canvas {
-    align-content: center;
-    margin-top: 200px;
-    margin: 50%;
-}
+#canvas-container {
+    width: 100%;
+    text-align:center;
+ }
+ 
+ canvas {
+    display: inline;
+ }

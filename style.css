@@ -5,6 +5,7 @@ body {
 }
 
 canvas {
-    margin: auto;
-    padding: 20px;
+    align-content: center;
+    margin-top: 200px;
+    margin-left: 35%;
 }

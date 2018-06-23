@@ -1,7 +1,7 @@
 int col, row;
-int scl = 30;
-int h = 1000;
-int w = 1000;
+int scl = 10;
+int h = 500;
+int w = 800;
 
 float forward;
 
@@ -15,7 +15,7 @@ void setup() {
 };
 
 void draw() {
-  forward -= 0.1;
+  forward -= 0.05;
 
   float yOff = forward;
   for (int y = 0; y < col; y++) {
@@ -35,7 +35,7 @@ void draw() {
   translate(height/2, width/2, -500);
   rotateX(PI/3);
 
-  translate(-w/2, -h/2);
+  translate(-w/2, 500, 250);
 
   for (int y = 0; y < col-1; y++) {
     beginShape(TRIANGLE_STRIP);

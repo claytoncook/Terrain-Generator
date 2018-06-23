@@ -15,7 +15,7 @@ void setup() {
 };
 
 void draw() {
-  forward -= 0.05;
+  forward -= 0.1;
 
   float yOff = forward;
   for (int y = 0; y < col; y++) {
